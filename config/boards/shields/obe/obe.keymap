@@ -162,11 +162,11 @@
         mac_layer {
             label = "mac layer";
             bindings = <
-                &trans &trans &trans    &trans &trans &trans &trans &trans        &trans &trans &trans &trans &trans &trans &trans &trans
-                &trans &trans &trans    &trans &trans &trans &trans               &trans &trans &trans &trans &trans &trans &trans &trans
-                &trans &trans &trans    &trans &trans &trans &trans               &trans &trans &trans &trans &trans &trans &trans
-                       &trans &trans    &trans &trans &trans &trans        &trans &trans &trans &trans &trans &trans &trans &trans
-                       &LGUI  &kp LCTRL        &trans &trans &mo 3         &trans               &trans &mo 5         &trans &trans &trans
+                &trans &trans    &trans    &trans &trans &trans &trans &trans        &trans &trans &trans &trans &trans &trans &trans &trans
+                &trans &trans    &trans    &trans &trans &trans &trans               &trans &trans &trans &trans &trans &trans &trans &trans
+                &trans &trans    &trans    &trans &trans &trans &trans               &trans &trans &trans &trans &trans &trans &trans
+                       &trans    &trans    &trans &trans &trans &trans        &trans &trans &trans &trans &trans &trans &trans &trans
+                       &kp LGUI  &kp LCTRL        &trans &trans &mo 3         &trans               &trans &mo 5         &trans &trans &trans
             >;
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
