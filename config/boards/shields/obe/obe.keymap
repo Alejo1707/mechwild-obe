@@ -139,11 +139,11 @@
         default_layer {
             label = "default layer";
             bindings = <
-                &kp C_MUTE &kp ESC   &kp N1   &kp N2   &kp N3   &kp N4    &kp N5 &kp N6           &kp N7 &kp N8 &kp N9    &kp N0  &kp MINUS &kp EQUAL &kp GRAVE &kp DEL
-                &kp PG_UP  &kp TAB   &kp Q    &kp W    &kp E    &kp R     &kp T                   &kp Y  &kp U  &kp I     &kp O   &kp P     &kp LBKT  &kp RBKT  &kp BSLH
-                &kp PG_DN  &kp CAPS  &kp A    &kp S    &kp D    &kp F     &kp G                   &kp H  &kp J  &kp K     &kp L   &kp SEMI  &kp APOS  &kp ENTER
-                           &kp LSHFT &kp Z    &kp X    &kp C    &kp V     &kp B         &kp B     &kp N  &kp M  &kp COMMA &kp DOT &kp FSLH  &kp UP    &kp RSHFT
-                           &kp LCTRL &kp LGUI          &kp LALT &kp SPACE &mo 2         &kp BSPC                &kp RALT  &mo 4             &kp LEFT  &kp DOWN  &kp RIGHT
+                &kp C_MUTE &kp ESC   &kp N1   &kp N2   &kp N3   &kp N4    &kp N5 &kp N6           &kp N7   &kp N8 &kp N9    &kp N0    &kp MINUS &kp EQUAL &kp GRAVE &kp DEL
+                &kp PG_UP  &kp TAB   &kp Q    &kp W    &kp E    &kp R     &kp T                   &kp Y    &kp U  &kp I     &kp O     &kp P     &kp LBKT  &kp RBKT  &kp BSLH
+                &kp PG_DN  &kp CAPS  &kp A    &kp S    &kp D    &kp F     &kp G                   &kp H    &kp J  &kp K     &kp L     &kp SEMI  &kp APOS  &kp ENTER
+                           &kp LSHFT &kp Z    &kp X    &kp C    &kp V     &kp B                   &kp B    &kp N  &kp M     &kp COMMA &kp DOT   &kp FSLH  &kp UP    &kp RSHFT
+                           &kp LCTRL &kp LGUI          &kp LALT &kp SPACE &mo 2                   &kp BSPC        &kp RALT  &mo 4               &kp LEFT  &kp DOWN  &kp RIGHT
             >;
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
@@ -165,8 +165,8 @@
                 &trans &trans    &trans    &trans &trans &trans &trans &trans        &trans &trans &trans &trans &trans &trans &trans &trans
                 &trans &trans    &trans    &trans &trans &trans &trans               &trans &trans &trans &trans &trans &trans &trans &trans
                 &trans &trans    &trans    &trans &trans &trans &trans               &trans &trans &trans &trans &trans &trans &trans
-                       &trans    &trans    &trans &trans &trans &trans        &trans &trans &trans &trans &trans &trans &trans &trans
-                       &kp LGUI  &kp LCTRL        &trans &trans &mo 3         &trans               &trans &mo 5         &trans &trans &trans
+                       &trans    &trans    &trans &trans &trans &trans               &trans &trans &trans &trans &trans &trans &trans &trans
+                       &kp LGUI  &kp LCTRL        &trans &trans &mo 3                &trans        &trans &mo 5         &trans &trans &trans
             >;
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
@@ -185,11 +185,11 @@
         winmod_layer {
             label = "win mod layer";
             bindings = <
-                &none    &trans &none   &none &none    &none  &none &none        &none &none &none  &none &none &none        &none        &trans
-                &kp HOME &trans &wsshot &none &none    &none  &none              &none &none &none  &none &none &none        &none        &bt BT_CLR
-                &kp END  &trans &wpdesk &none &wndesk  &none  &none              &none &none &none  &none &none &none        &trans
-                         &trans &none   &none &none    &none  &none       &none  &none &none &none  &none &none &none        &bt BT_SEL 0
-                         &trans &trans        &trans   &trans &none       &trans             &trans &to 1       &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3
+                &none    &trans &none   &none &none    &none  &none &none        &none  &none &none  &none &none &none        &none        &trans
+                &kp HOME &trans &wsshot &none &none    &none  &none              &none  &none &none  &none &none &none        &none        &bt BT_CLR
+                &kp END  &trans &wpdesk &none &wndesk  &none  &none              &none  &none &none  &none &none &none        &trans
+                         &trans &none   &none &none    &none  &none              &none  &none &none  &none &none &none        &bt BT_SEL 0 &trans
+                         &trans &trans        &trans   &trans &none              &trans       &trans &to 1       &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3
             >;
         };
 
@@ -207,11 +207,11 @@
         macmod_layer {
             label = "mac mod layer";
             bindings = <
-                &none    &trans &none    &none      &none   &none  &none &none        &none &none &none  &none &none &none        &none        &trans
-                &kp HOME &trans &mwcycle &mmcontrol &none   &none  &none              &none &none &none  &none &none &none        &none        &bt BT_CLR
-                &kp END  &trans &mpdesk  &mcapp     &mndesk &none                     &none &none &none  &none &none &none        &trans
-                         &trans &none    &none      &none   &none  &none       &none  &none &none &none  &none &none &none        &bt BT_SEL 0
-                         &trans &trans              &trans  &trans &none       &trans             &trans &to 0       &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3
+                &none    &trans   &none     &none      &none   &none  &none &none        &none  &none &none  &none  &none &none        &none        &trans
+                &kp HOME &trans   &mwcycle  &mmcontrol &none   &none  &none              &none  &none &none  &none  &none &none        &none        &bt BT_CLR
+                &kp END  &trans   &mpdesk   &mcapp     &mndesk &none  &none              &none  &none &none  &none  &none &none        &trans
+                         &trans   &none     &none      &none   &none  &none              &none  &none &none  &none  &none &none        &bt BT_SEL 0 &trans
+                         &pk LGUI &kp LCTRL            &trans  &trans &none              &trans       &trans &to 0        &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3
             >;
         };
 
@@ -229,11 +229,11 @@
         winpad_layer {
             label = "windows numpad layer";
             bindings = <
-                &none &trans &none        &none     &none     &none     &none           &none        &none &none &none  &none &none &none    &none    &trans
-                &none &trans &kp KP_MINUS &kp KP_N9 &kp KP_N8 &kp KP_N7 &kp KP_PLUS                  &none &none &none  &none &none &none    &none    &none
-                &none &trans &kp KP_SLASH &kp KP_N6 &kp KP_N5 &kp KP_N4 &kp KP_ASTERISK              &none &none &none  &none &none &none    &trans
-                      &trans &kp KP_DOT   &kp KP_N3 &kp KP_N2 &kp KP_N1 &kp KP_N0             &none  &none &none &none  &none &none &none    &kp UP
-                      &trans &trans                 &trans    &trans    &none                 &trans             &trans &none       &kp LEFT &kp DOWN &kp RIGHT
+                &none &trans &none        &none     &none     &none     &none           &none        &none  &none &none  &none &none &none    &none    &trans
+                &none &trans &kp KP_MINUS &kp KP_N9 &kp KP_N8 &kp KP_N7 &kp KP_PLUS                  &none  &none &none  &none &none &none    &none    &none
+                &none &trans &kp KP_SLASH &kp KP_N6 &kp KP_N5 &kp KP_N4 &kp KP_ASTERISK              &none  &none &none  &none &none &none    &trans
+                      &trans &kp KP_DOT   &kp KP_N3 &kp KP_N2 &kp KP_N1 &kp KP_N0                    &none  &none &none  &none &none &none    &kp UP   &trans
+                      &trans &trans                 &trans    &trans    &none                        &trans       &trans &none       &kp LEFT &kp DOWN &kp RIGHT
             >;
         };
 
@@ -251,11 +251,11 @@
         macpad_layer {
             label = "mac numpad layer";
             bindings = <
-                &none &trans &none    &none      &none   &none  &none &none        &none &none &none  &none &none &none    &none    &trans
-                &none &trans &mwcycle &mmcontrol &none   &none  &none              &none &none &none  &none &none &none    &none    &none
-                &none &trans &mpdesk  &mcapp     &mndesk &none                     &none &none &none  &none &none &none    &trans
-                      &trans &none    &none      &none   &none  &none       &none  &none &none &none  &none &none &none    &kp UP
-                      &trans &trans              &trans  &trans &none       &trans             &trans &none       &kp LEFT &kp DOWN &kp RIGHT
+                &none &trans &none    &none      &none   &none  &none &none        &none  &none &none  &none  &none &none    &none    &trans
+                &none &trans &mwcycle &mmcontrol &none   &none  &none              &none  &none &none  &none  &none &none    &none    &none
+                &none &trans &mpdesk  &mcapp     &mndesk &none                     &none  &none &none  &none  &none &none    &trans
+                      &trans &none    &none      &none   &none  &none              &none  &none &none  &none  &none &none    &kp UP   &trans
+                      &trans &trans              &trans  &trans &none              &trans       &trans &none        &kp LEFT &kp DOWN &kp RIGHT
             >;
         };
     };
