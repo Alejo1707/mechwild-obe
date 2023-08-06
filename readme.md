@@ -1,6 +1,6 @@
 # MechWild OrangeBoyErgo
 
-<p align="center'>
+<p align="center">
 
 ![Wireless OrangeBoyErgo](https://i.imgur.com/NIReAQp.jpeg)
 
@@ -29,52 +29,30 @@ Original firmware taken from MechWild's GitHub repository. It's "bbpad" branch w
 - BlueTooth clear key on pipe on mod layers.
 - Profiles: Up (BT 0), Left (BT 1), Down (BT 2), Right (BT 3).
 
-**PILLBUG PINOUT**
-R0: 29
-R1: 28
-R2: 27
-R3: 26
-R4: 25
-R5: 38
-R6: 39
+**PILLBUG PINOUT**<br />
+R0: 29<br />
+R1: 28<br />
+R2: 27<br />
+R3: 26<br />
+R4: 25<br />
+R5: 38<br />
+R6: 39<br />
 
-C0: 21
-C1: 19
-C2: 18
-C3: 17
-C4: 16
-C5: 15
-C6: 14
-C7: 13
-C8: 12
-C9: 11
+C0: 21<br />
+C1: 19<br />
+C2: 18<br />
+C3: 17<br />
+C4: 16<br />
+C5: 15<br />
+C6: 14<br />
+C7: 13<br />
+C8: 12<br />
+C9: 11<br />
 
 PillBug (BlackPill drop-in replacement) schematic for the OBE
 
 <p align="center">
+        
 ![BlackPill Pinout for the OBE](https://i.imgur.com/MNj33Vg.png)
+
 </p>
-
-If you want to start from scratch on a layer here is a blank canvas for your new creation:
-
-// |||||/----\|||||    --------------------------------------------------------------------------
-// |    |    |    |   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
-// |||||\----/|||||   ----------------------------------------------------------------------------
-//      |    |       |      |    |    |    |    |    ||||    |    |    |    |    |    |    |      |
-//      |----|       |--------------------------------|||-----------------------------------------|
-//      |    |       |       | /  |    |    |    |    |||||    |    |    |    |    |    |         |
-//       ----        ---------------------------------|||------------------------------------------
-//                  |         | .  |    |    |    |    ||    |    |    |    |    |    |    |       |
-//                   ------------------------------------------------------------------------------
-//                   |     |     ||||     |         |    ||           |    ||    |    |    |    |
-//                    --------------------------------------------------------------------------
-        my_awesome_layer{
-            label = "Whatever description you want!!!";
-            bindings = <
-                &none &none  &none &none &none &none &none &none       &none &none &none &none &none &none &none &none
-                &none &none  &none &none &none &none &none             &none &none &none &none &none &none &none &none
-                &none &none  &none &none &none &none &none             &none &none &none &none &none &none &none
-                      &none  &none &none &none &none &none             &none &none &none &none &none &none &none &none
-                      &none  &none       &none &none &none             &none       &none &none       &none &none &none
-            >;
-        };
