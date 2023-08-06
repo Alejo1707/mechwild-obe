@@ -6,7 +6,7 @@
 
 </p>
 
-Original firmware taken from MechWild's GitHub repository. It's "bbpad" branch was the most recent one being updated for the OBE: https://github.com/MechWild/zmk/tree/bbpad/app/boards/shields/obe.
+Original firmware taken from MechWild's GitHub repository. Its "bbpad" branch was the most recent one being updated for the OBE: https://github.com/MechWild/zmk/tree/bbpad/app/boards/shields/obe.
 
 **FEATURES**
 - Knob.
