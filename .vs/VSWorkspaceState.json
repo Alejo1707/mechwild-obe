@@ -1,7 +1,13 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\.github\\workflows",
+    "\\config",
+    "\\config\\boards",
+    "\\config\\boards\\shields",
+    "\\config\\boards\\shields\\obe",
+    "\\config\\boards\\shields\\obe\\boards"
   ],
-  "SelectedNode": "\\A:\\Alejandro\\Code\\Visual Studio\\mechwild-obe",
+  "SelectedNode": "\\config\\boards\\shields\\obe\\obe.overlay",
   "PreviewInSolutionExplorer": false
 }
