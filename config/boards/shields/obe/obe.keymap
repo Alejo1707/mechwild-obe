@@ -185,11 +185,11 @@
         winmod_layer {
             label = "win mod layer";
             bindings = <
-                &none    &trans &none   &none &none    &none  &none &none        &none  &none &none  &none &none &none        &none        &trans
-                &kp HOME &trans &wsshot &none &none    &none  &none              &none  &none &none  &none &none &none        &none        &bt BT_CLR
-                &kp END  &trans &wpdesk &none &wndesk  &none  &none              &none  &none &none  &none &none &none        &trans
-                         &trans &none   &none &none    &none  &none              &none  &none &none  &none &none &none        &bt BT_SEL 0 &trans
-                         &trans &trans        &trans   &trans &none              &trans       &trans &to 1       &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3
+                &none    &trans &kp F1  &kp F2 &kp F3  &kp F4 &kp F5 &kp F6        &kp F7  &kp F8 &kp F9 &kp F10 &kp F11 &kp F12      &none        &trans
+                &kp HOME &trans &wsshot &none  &none   &none  &none                &none   &none  &none  &none   &none   &none        &none        &bt BT_CLR
+                &kp END  &trans &wpdesk &none  &wndesk &none  &none                &none   &none  &none  &none   &none   &none        &trans
+                         &trans &none   &none  &none   &none  &none                &none   &none  &none  &none   &none   &none        &bt BT_SEL 0 &trans
+                         &trans &trans         &trans  &trans &none                &trans         &trans &to 1           &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3
             >;
         };
 
@@ -207,11 +207,11 @@
         macmod_layer {
             label = "mac mod layer";
             bindings = <
-                &none    &trans   &none     &none      &none   &none  &none &none        &none  &none &none  &none  &none &none        &none        &trans
-                &kp HOME &trans   &mwcycle  &mmcontrol &none   &none  &none              &none  &none &none  &none  &none &none        &none        &bt BT_CLR
-                &kp END  &trans   &mpdesk   &mcapp     &mndesk &none  &none              &none  &none &none  &none  &none &none        &trans
-                         &trans   &none     &none      &none   &none  &none              &none  &none &none  &none  &none &none        &bt BT_SEL 0 &trans
-                         &kp LGUI &kp LCTRL            &trans  &trans &none              &trans       &trans &to 0        &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3
+                &none    &trans   &kp F1    &kp F2     &kp F3  &kp F4 &kp F5 &kp F6      &kp F7 &kp F8 &kp F9 &kp F10 &kp F11 &kp F12      &none        &trans
+                &kp HOME &trans   &mwcycle  &mmcontrol &none   &none  &none              &none  &none  &none  &none   &none   &none        &none        &bt BT_CLR
+                &kp END  &trans   &mpdesk   &mcapp     &mndesk &none  &none              &none  &none  &none  &none   &none   &none        &trans
+                         &trans   &none     &none      &none   &none  &none              &none  &none  &none  &none   &none   &none        &bt BT_SEL 0 &trans
+                         &kp LGUI &kp LCTRL            &trans  &trans &none              &trans        &trans &to 0           &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3
             >;
         };
 
