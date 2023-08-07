@@ -1,13 +1,12 @@
 {
   "ExpandedNodes": [
     "",
-    "\\.github\\workflows",
     "\\config",
     "\\config\\boards",
     "\\config\\boards\\shields",
     "\\config\\boards\\shields\\obe",
     "\\config\\boards\\shields\\obe\\boards"
   ],
-  "SelectedNode": "\\config\\boards\\shields\\obe\\obe.overlay",
+  "SelectedNode": "\\readme.md",
   "PreviewInSolutionExplorer": false
 }
